@@ -1,0 +1,21 @@
+.btn{
+border-radius: 50px;
+padding-top: 15px;
+padding-bottom: 15px;
+border: 1px solid black;
+width: 50px;
+text-align: center;
+cursor:pointer;
+}
+.nav{
+position: absolute;
+margin-top: 310px;
+margin-left: 40px;
+}
+.nav > div{
+	display:inline-block;
+}
+.main{
+	border:1px solid black;
+	height:400px;
+}
