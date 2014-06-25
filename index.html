@@ -10,15 +10,23 @@
 	
 	<script>
 		$(document).ready(function(){
-		
-			$('.fir').click(function(){
-				$('.main').append('btn fir')
-			})
+		var x=0;
+			$('.fir').mousedown(function(){
+				x+=5;
+				
+				if(x<400){
+				
+				$('.pers').css({'margin-left':(x+5)+'px'});
+				}
+			});
 		$('.sec').click(function(){
-				$('.main').append('btn sec')
-				})
-			})
-		
+				
+				for(var i=0;i<400;i++){
+					console.log(i);
+				}
+				
+				});
+			});
 		
 	
 	</script>
@@ -36,6 +44,9 @@
 	</div>
 </div>
 <div class='main'>
+
+
+<div class='pers'>
 
 
 </div>
